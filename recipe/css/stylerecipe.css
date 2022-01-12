@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.header h2 {
+    padding: 6px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: serif;
+    text-decoration: underline;
+    color: green;
+}
+
+.header p {
+    margin-top: 10px;
+}
+
+.header ul {
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border-bottom: 2px solid #ddd;
+}
+
+.header ul li {
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+#body .section h2 {
+    padding: 6px;
+    background-color: #f5f5f5;
+    font-family: serif;
+    text-decoration: underline;
+    color: green;
+    margin-top: 8px;
+}
+
+.section > ul {
+    padding: 8px 0px 8px 40px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 8px;
+}
+
+.section ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section ol {
+    padding: 8px 0px 8px 40px;
+    margin-bottom: 8px;
+}
+
+.section ol ul {
+    padding: 3px 0px 8px 40px;
+}
+
+.section p.recipe {
+    padding: 8px 0px;
+    border-bottom: 2px solid #ddd;
+}
+
+.section .comment {
+    background-color: yellow;
+    margin: 15px 0px 10px 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.section .comment span {
+    padding-top: 20px;
+    display: inline-block;
+}
+
+footer {
+    text-align:  left;
+}
+
+footer p {
+    padding: 10px 0px;
+}
+
+footer .copyright {
+   display: inline-block;
+}
