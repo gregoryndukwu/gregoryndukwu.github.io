@@ -4,6 +4,7 @@
     <link href="css/styleme.css" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>About Me</title>
+    
 </head>
 <body>
     <h2 class="h2name">About Gregory Ndukwu</h2>
@@ -53,8 +54,14 @@
             formed a sequel to Tolkien’s The Hobbit (1937) and was succeeded by his posthumous The Silmarillion (1977).
              The Lord of the Rings is the saga of a group of sometimes reluctant heroes who set forth to save their 
              world from consummate evil. Its many worlds and creatures were drawn from Tolkien’s 
-             extensive knowledge of philology and folklore.  
+             extensive knowledge of philology and folklore. 
+             <a href="https://www.imdb.com/title/tt0120737/" target="_blank" class="acourses">imdb</a>
         </p>
+        
+            <p><b>Director : </b> Peter Jackson </p>
+            <p><b>Genere : </b> fantasy</p>   
+            <p><b>Stars :</b> Orlando Bloom, Ian McKellen, Elijah Wood, Etc... </p>
+
         </li>
         <li><b>Saving Private Ryan</b>
         <p>
@@ -65,7 +72,13 @@
             (Tom Sizemore, Edward Burns, Barry Pepper, Giovanni Ribisi, Vin Diesel, Adam Goldberg, and Jeremy Davies) 
             as they search for a paratrooper, Private first class James Francis Ryan (Matt Damon), 
             the last surviving brother of four, the three other brothers having been killed in action 
+            <a href="https://www.imdb.com/title/tt0120815/" target="_blank" class="acourses">imdb</a>
         </p>
+
+        <p><b>Director : </b>  Steven Spielberg </p>
+        <p><b>Genere : </b> War</p>   
+        <p><b>Stars :</b> Tom Hanks, Matt Damon, Tom Sizemore, Etc... </p>
+
         </li>
         <li><b>Black Hawk Down</b>
         <p>
@@ -79,10 +92,40 @@
             The film received positive reviews from film critics, although it was heavily criticized for its inaccuracies, 
             and sparked controversy for its portrayal of Somalis. The film performed modestly well at the box office,
              grossing $172 million worldwide against a production budget of $92 to $110 million   
+             <a href="https://www.imdb.com/title/tt0120815/" target="_blank" class="acourses">imdb</a>
         </p>
+
+        <p><b>Director : </b>  Ridley Scott </p>
+        <p><b>Genere : </b> War</p>   
+        <p><b>Stars :</b> Josh Hartnett, Ewan McGregor, Tom Sizemore, Etc... </p>
+
         </li>     
      </ol>
     
+     <p class="ptitle">
+        My Moods
+    </p>
+
+    <table>
+        <tr>
+            <td>
+                <p>Happy</p>
+                <img src="img/very_happy.gif" alt="Very Happy>" width="400px" height="400px">
+            </td>
+            <td>
+                <p>SAD</p>
+                <img src="img/very_sad.gif" alt="Very Sad" width="400px" height="400px">
+            </td>
+        </tr>
+    </table>
+   
+    <p class="ptitle">
+        Fun Facts About My Neighbors
+    </p>
+
+    <p><b>Raymond Mawunyo : </b>  Very Happy person, and a good friend </p>
+    <p><b>Mohammad Omar : </b> This Guy is very smart, and a good person</p>   
+
      <p class="ptitle">
         My Favorite Places to Go!
     </p>
@@ -96,24 +139,24 @@
       </div>
       
       <script>
-      var slideIndex = 1;
-      showDivs(slideIndex);
-      
-      function plusDivs(n) {
-        showDivs(slideIndex += n);
-      }
-      
-      function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = x.length}
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";  
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
         }
-        x[slideIndex-1].style.display = "block";  
-      }
-      </script>
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
     <br />
     <br />
     <br />
