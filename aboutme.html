@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/styleme.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>About Me</title>
+</head>
+<body>
+    <h2 class="h2name">About Gregory Ndukwu</h2>
+    <p class="ptitle">Who I am ?</p>
+    <p> My name is Gregory Augusto Santos Ndukwu i have <b>36</b> 
+        year old, and i love to <b> to play soccer</b> with my friends
+    </p>
+    <p class="ptitle">About My IT Skils ?</p>
+    <p>
+        Work with abap / PI developer since 2011, i start my work with sap 4.6c. Education: Tecnology in Softwares 
+        development at <b> University Salgado de Oliveira </b> , 4 year.
+   </p>
+   <p class="ptext">
+        I Have knowledge in: ALV, REPORT, BATCH INPUT, MODULE POOL, FUNCTION, HR, SAPSCRIPT, QUERY, RFC, lSMW,
+         BAPI, BADI, IDOC, ALVOO, <br /> OO DEVELOPMENT, INTERFACES. I work with Modules: <b> FI/CO, SD, MM, QM, PP, HR, WM, LO, AI, FI. </b>
+    </p>
+    <p>    
+        Experience in rollout project, implementation projetcs, Abap leader since 2017.
+        Huge experience in Performance e Tuning, this is the most interesting area for me.
+        <br />I have Worked for  <b> banking, chemistry, agribusiness, textile </b>
+      </p>
+     <p>   
+        I know some development languages like <b>Java, Javascript, Jsp, Servlet, WebService, PL/SQL, PHP, </b>
+        knowledge in Oracle and Mysql Database. <br /> Development of technical specifications and estimates for plan development, 
+        review and quality of programs development by factory <br />Performance Analysis and tuning solutions to development programs.  
+    </p>
+    <p class="ptitle">
+        My Class Since August 2021
+    </p>
+    <ol class="ol">
+        <li> <a href="https://compro.miu.edu/courses/#toggle-id-1" target="_blank" class="acourses">  FPP </a></li>
+        <li> <a href="https://compro.miu.edu/courses/#toggle-id-2" target="_blank" class="acourses">  MPP </a></li>
+        <li> <a href="https://compro.miu.edu/courses/#toggle-id-15" target="_blank" class="acourses"> DBMS </a></li>
+        <li> <a href="https://compro.miu.edu/courses/#toggle-id-4" target="_blank" class="acourses">  Algorithms </a></li>
+        <li> <a href="https://compro.miu.edu/courses/#toggle-id-8" target="_blank" class="acourses">  WAP </a></li>
+    </ol>
+
+    <p class="ptitle">
+        My Favorite Movies
+    </p>
+
+    <ol class="steps">
+        <li><b>The Lord of the Rings</b>
+        <p>
+            fantasy novel by J.R.R. Tolkien initially published in three parts as The Fellowship of the Ring (1954), 
+            The Two Towers (1955), and The Return of the King (1955). The novel, set in the Third Age of Middle-earth, 
+            formed a sequel to Tolkien’s The Hobbit (1937) and was succeeded by his posthumous The Silmarillion (1977).
+             The Lord of the Rings is the saga of a group of sometimes reluctant heroes who set forth to save their 
+             world from consummate evil. Its many worlds and creatures were drawn from Tolkien’s 
+             extensive knowledge of philology and folklore.  
+        </p>
+        </li>
+        <li><b>Saving Private Ryan</b>
+        <p>
+            is a 1998 American epic war film directed by Steven Spielberg and written by Robert Rodat. 
+            Set during the Invasion of Normandy in World War II, the film is known for its graphic portrayal of war, 
+            especially its depiction of the Omaha Beach assault during the Normandy landings. The film follows 
+            United States Army Rangers Captain John H. Miller (Tom Hanks) and his squad 
+            (Tom Sizemore, Edward Burns, Barry Pepper, Giovanni Ribisi, Vin Diesel, Adam Goldberg, and Jeremy Davies) 
+            as they search for a paratrooper, Private first class James Francis Ryan (Matt Damon), 
+            the last surviving brother of four, the three other brothers having been killed in action 
+        </p>
+        </li>
+        <li><b>Black Hawk Down</b>
+        <p>
+            is a 2001 war film directed and produced by Ridley Scott, and co-produced by Jerry Bruckheimer, 
+            from a screenplay by Ken Nolan. It is based on the 1999 non-fiction book of the same name by journalist Mark Bowden, 
+            about the U.S. military's 1993 raid in Mogadishu. The film features a large ensemble cast, including Josh Hartnett, 
+            Ewan McGregor, Eric Bana, Tom Sizemore, William Fichtner, Sam Shepard, Jeremy Piven and Tom Hardy in his first film role.
+        </p>
+        <p>
+            Black Hawk Down had a limited release on December 28, 2001, and went into the public on January 18, 2002. 
+            The film received positive reviews from film critics, although it was heavily criticized for its inaccuracies, 
+            and sparked controversy for its portrayal of Somalis. The film performed modestly well at the box office,
+             grossing $172 million worldwide against a production budget of $92 to $110 million   
+        </p>
+        </li>     
+     </ol>
+    
+     <p class="ptitle">
+        My Favorite Places to Go!
+    </p>
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="img/canada_1.jpg" style="width:100%">
+        <img class="mySlides" src="img/canada_2.jpg" style="width:100%">
+        <img class="mySlides" src="img/canada_3.jpg" style="width:100%">
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+    <br />
+    <br />
+    <br />
+    <br />
+    <a
+    href="https://validator.w3.org/nu/?doc=https://gregoryndukwu.github.io/aboutme.html">
+    <img src="img/w3c.png" alt="html validator"/> 
+    </a>  
+    <a
+    href="http://jigsaw.w3.org/css-validator/validator?uri=gregoryndukwu.github.io/aboutme.html">
+    <img src="img/w3c_css.png" alt="html validator"/> 
+    </a>    
+</body>
