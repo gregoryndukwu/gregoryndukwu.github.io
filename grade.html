@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grade.css" type="text/css" rel="stylesheet" />
+    <link href="css/movie.css" type="text/css" rel="stylesheet" />
+    <title></title>
+</head>
+
+<body>
+  <div ><h1>Retrieve  Grade</h1></div>
+  
+<div>
+  <form action= "http://mumstudents.org/params.php" autocomplete="on" >
+    <label for= "name">Name: </label> <br>
+    <input type= "text" class="inp" name= "name" placeholder="Enter your name"> <br><br>
+    <label for= "id">Student ID: </label>  <br>
+    <input type="text" class="inp" name="id" placeholder="Enter your ID"> <br><br>
+
+    <label for= "courses" >Course: </label>
+    <select id="courses" name="courses">
+      <option value="CS472">WAP</option>
+      <option value="CS525">WAA</option>
+      <option value="CS425">SE</option>
+      <option value="CS575">ASD</option>
+    </select>
+    <br><br>
+
+    <label>Entry: </label> <br>
+
+    <input type="radio" id="aug" name="entry" value= "Aug-2021"> 
+    <label for= "aug">August 2021: </label><br>
+    <input type="radio" id="may" name="entry" value= "May-2021"> 
+    <label for= "may">May 2021: </label><br>
+    <input type="radio" id="feb" name="entry" value= "Feb-2021"> 
+    <label for= "feb">Feb 2021: </label> <br><br>
+   
+
+    <label>Select living things only:</label> <br>
+    <input type="checkbox" id="horse" name="living" value="Horse">
+  <label for="horse">Horse</label><br>
+  <input type="checkbox" id="table" name="living" value="Table">
+  <label for="table">Table</label><br>
+  <input type="checkbox" id="rabbit" name="living" value="Rabbit">
+  <label for="rabbit">Rabbit</label><br><br>
+
+    <input type= "submit" id= "submit" value="get grade"> 
+
+  </form>
+
+</div> 
+<p>
+  <a
+  href="https://validator.w3.org/nu/?doc=https://gregoryndukwu.github.io/grade.html">
+  <img src="img/w3c.png" alt="html validator"/> 
+  </a> 
+  <br /> 
+  <a
+  href="http://jigsaw.w3.org/css-validator/validator?uri=gregoryndukwu.github.io/grade.html">
+  <img src="img/w3c_css.png" alt="html validator"/> 
+  </a>  
+</p>
+</body>
+
+</html>

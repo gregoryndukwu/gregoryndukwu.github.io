@@ -1,0 +1,70 @@
+.body{
+    background-image: linear-gradient(rgb(202, 188, 188), rgb(238, 238, 209));
+}
+
+.principal{
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 50%;
+   
+    width: 800px;
+    height: 300px;
+    
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(230, 216, 216, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 30px;
+  }
+  .form__field {
+    font-family: inherit;
+    width: 70%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  .form__field2 {
+    font-family: inherit;
+    width: 30%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  .button {
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+}
+
+.button:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+.button:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;   
+}
