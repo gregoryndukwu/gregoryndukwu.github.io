@@ -14,19 +14,19 @@
 <form action= "http://mumstudents.org/params.php" autocomplete="on" title="New User Signup">
 
     <label for= "name">Name: </label> 
-    <input type= "text" class="form__field" name= "name" placeholder="Enter your name" > <br><br>
-    <label>Gender: </label> 
+    <input type= "text" id="name" class="form__field" name= "name" placeholder="Enter your name" > <br><br>
+    <label >Gender: </label> 
 
     <input type="radio" id="male" name="gender" value= "Male"> 
-    <label for= "aug">Male </label>
+    <label for= "male">Male </label>
     <input type="radio" id="female" name="gender" value= "Female"> 
-    <label for= "may">Female </label>
+    <label for= "female">Female </label>
     <br />
     <label for= "age">Age: </label> 
-    <input type= "text" class="form__field2" name= "age" placeholder="Your Age Here"> <br><br>
-    <label for= "age">Personality type: </label> 
-    <input type= "text" class="form__field2" name= "type" > (Don´t Know your type?) <br><br>
-    <label for= "os">Favorite OS: </label> 
+    <input type= "text" id="age" class="form__field2" name= "age" placeholder="Your Age Here"> <br><br>
+    <label for= "per">Personality type: </label> 
+    <input type= "text" id="per" class="form__field2" name= "type" > (Don´t Know your type?) <br><br>
+    <label for= "courses">Favorite OS: </label> 
     <select id="courses" name="courses">
         <option value="win">Windows</option>
         <option value="linux">Linux</option>
@@ -36,8 +36,8 @@
         <option value="ch">ChromeOS</option>
       </select>
     <br />
-    <label for= "name">Seeking age: </label> 
-    <input type= "text" class="form__field2" name= "name" placeholder="min"> To 
+    <label for= "min">Seeking age: </label> 
+    <input type= "text" id="min" class="form__field2" name= "name" placeholder="min"> To 
     <input type= "text" class="form__field2" name= "name" placeholder="max">
     <input type= "submit" id= "submit" value="Sign Up" class="button"> 
 </form>
@@ -54,4 +54,5 @@
     <img src="img/w3c_css.png" alt="html validator"/> 
     </a>  
   </p>
-<body>
+  </body>
+</html>
