@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ascii.css" type="text/css" rel="stylesheet" />
+    <script src = "animations.js"></script>
+    <script src = "ascii.js"></script>
+    <title>Funny Job</title>
+</head>
+
+<body>
+    <header>CSE 190 M ASCII Animation Viewer</header>
+    <div class="container">
+    <textarea cols="30" id="textArea" placeholder="You Will see hte Magic Here ..." rows="4"></textarea>
+	</textarea>
+    <table>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Play Controls:</legend>
+                    <table>
+                        <tr>
+                            <td><button id= "start" onclick="teste()">Start</button> <br></td>
+                            <td><button id= "stop">Stop</button> <br></td>
+                        </tr>
+                    </table>
+                    
+                    
+                </fieldset>
+            </td>
+            <td>
+                <fieldset>
+                    <legend>Animation:</legend>
+                    <select id="game">
+                        <option value="blank">Blank</option>
+                        <option value="exercise">Exercise</option>
+                        <option value="juggler">Juggler</option>
+                        <option value="bike">Bike</option>
+                        <option value="dive">Dive</option>
+                        <option value="custom">Custom</option>
+                    </select>
+                </fieldset> 
+            </td>
+            <td>
+                <fieldset>
+                    <legend>Size:</legend>
+                    <select id="size">
+                        <option id='tiny' value='7'>Tiny</option>
+			            <option id='small' value='10'>Small</option>
+			            <option id='medium' value='12' selected="selected">Medium</option>
+			            <option id='large' value='16'>Large</option>
+			            <option id='extralarge' value='24'>Extra Large</option>
+			            <option id='xxl' value='32'>XXL</option>
+                    </select>
+                </fieldset> 
+            </td>
+            <td>
+                <fieldset>
+                    <legend>Speed:</legend>
+                    <label><input id="turbo" type="checkbox">Turbo</label>
+                </fieldset> 
+            </td>
+        </tr>
+    </table>
+    
+</div>
+</body>
+
+</html>
