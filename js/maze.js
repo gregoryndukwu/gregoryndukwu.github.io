@@ -4,8 +4,12 @@ $(document).ready(function () {
     var $status = $("#status");
     var $start = $("#start");
     var $end = $("#end");
+    var $maze = $("#maze");
     var $check = 0;
     
+
+   
+
     StartGame();
 
     function StartGame() {
@@ -38,6 +42,8 @@ $(document).ready(function () {
         //$boundary.css("background-color","#ff8888;");
         $status.text("Sorry, You Lose");
         })
+
+       
 
     }
 
