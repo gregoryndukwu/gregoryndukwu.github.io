@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+    head
+        title Number Quiz
+        link(rel='stylesheet', href='/views/style.css' type='text/css')
+    body 
+        div 
+            h1 The Number Quiz
+            if(currentScore && totalQuestions)
+              p Your current Score is #{currentScore}
+              p You have completed the Number Quiz with a score of #{currentScore} of #{totalQuestions}
+              a(href="/") play again
+            else 
+              p Your Current score is #{correctAnswer}
+              p Guess the next number in the sequence.
+              p 
+               span #{question}
+
+              form(action="/", method="GET")
+               p Your answer: 
+                input(type='text' name='answer')
+               p 
+                input(type='submit' value='Next Questioin')
+               p 
+                input(type='hidden' name='index' value=index)
+                input(type='hidden' name='correctAnswer' value=correctAnswer)
+              
+           
+               
