@@ -1,0 +1,28 @@
+
+header{
+    color: blue;
+}
+.divheader{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border: solid 1px black;
+    background-color: rgb(204, 98, 98);
+}
+.divSearch{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(187, 187, 202);
+}
+
+h1{
+    text-align: center;
+}
+table{
+    margin-left: 39%;
+}
+p{
+    font-family: cursive;
+}

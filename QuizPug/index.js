@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3030;
 var data_store = require('./model/data');
 
 app.set('view engine', 'pug');
